@@ -1,0 +1,81 @@
+Script started on 2022-01-25 12:33:17-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="104" LINES="49"]
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ mkdir dir0
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ mkdir dir1
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ touch df0
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ touch df1
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls
+[?2004ldf0  df1  [0m[01;34mdir0[0m  [01;34mdir1[0m  typescript
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ cd dir0
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1/dir0[?2004h[srangel@compute dir0]$ touch df0
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1/dir0[?2004h[srangel@compute dir0]$ ls
+[?2004ldf0
+]0;srangel@compute:~/2211/Assignments/Assignment1/dir0[?2004h[srangel@compute dir0]$ cd ..
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ cd dir0
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1/dir0[?2004h[srangel@compute dir0]$ pwd
+[?2004l/home/srangel/2211/Assignments/Assignment1/dir0
+]0;srangel@compute:~/2211/Assignments/Assignment1/dir0[?2004h[srangel@compute dir0]$ cd ~
+[?2004l]0;srangel@compute:~[?2004h[srangel@compute ~]$ cd 2211/Assignments/Assignment1
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls
+[?2004ldf0  df1  [0m[01;34mdir0[0m  [01;34mdir1[0m  typescript
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -l
+[?2004ltotal 3
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:33 df0
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:34 df1
+drwxrwxr-x 2 srangel srangel 3 Jan 25 12:34 [0m[01;34mdir0[0m
+drwxrwxr-x 2 srangel srangel 2 Jan 25 12:33 [01;34mdir1[0m
+-rw-r--r-- 1 srangel srangel 0 Jan 25 12:33 typescript
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -R di*
+[?2004ldir0:
+df0
+
+dir1:
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -ld di*
+[?2004ldrwxrwxr-x 2 srangel srangel 3 Jan 25 12:34 [0m[01;34mdir0[0m
+drwxrwxr-x 2 srangel srangel 2 Jan 25 12:33 [01;34mdir1[0m
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -lt
+[?2004ltotal 3
+drwxrwxr-x 2 srangel srangel 3 Jan 25 12:34 [0m[01;34mdir0[0m
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:34 df1
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:33 df0
+drwxrwxr-x 2 srangel srangel 2 Jan 25 12:33 [01;34mdir1[0m
+-rw-r--r-- 1 srangel srangel 0 Jan 25 12:33 typescript
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -l /home.[K/srangel/2211/Assignments/Assignemn[K[K[Kment1
+[?2004ltotal 3
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:33 df0
+-rw-rw-r-- 1 srangel srangel 0 Jan 25 12:34 df1
+drwxrwxr-x 2 srangel srangel 3 Jan 25 12:34 [0m[01;34mdir0[0m
+drwxrwxr-x 2 srangel srangel 2 Jan 25 12:33 [01;34mdir1[0m
+-rw-r--r-- 1 srangel srangel 0 Jan 25 12:33 typescript
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls -R
+[?2004l.:
+df0  df1  [0m[01;34mdir0[0m  [01;34mdir1[0m  typescript
+
+./dir0:
+df0
+
+./dir1:
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ ls [K[K[Kfind -Rempty[K[K[K[K[K[K[Kempty[K[K[K[K[K-empty[K[K[K[K[K[K-empty di*
+[?2004lfind: paths must precede expression: `dir0'
+find: possible unquoted pattern after predicate `-empty'?
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ find - [Kempty "[Cdir[K*'[K"[K[K"8[K*
+[?2004lfind: paths must precede expression: `dir0'
+find: possible unquoted pattern after predicate `-empty'?
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ find -tp[Kype[K[K[K[Kempty -type d
+[?2004l./dir1
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ find [K[Kd -type f -name "d*"
+[?2004l./df0
+./df1
+./dir0/df0
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ find -atime -2
+[?2004l.
+./df0
+./typescript
+./dir1
+./.nfs00000000018700980000019f
+./df1
+./dir0
+./dir0/df0
+]0;srangel@compute:~/2211/Assignments/Assignment1[?2004h[srangel@compute Assignment1]$ [?2004l
+exit
+
+Script done on 2022-01-25 12:51:11-05:00 [COMMAND_EXIT_CODE="0"]

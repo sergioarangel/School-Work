@@ -1,0 +1,81 @@
+Script started on 2022-03-28 23:30:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="66" LINES="33"]
+]0;srangel@compute:~/2211/Assignments/Assignment4[?2004h[srangel@compute Assignment4]$ ./sportdb[K[K_db
+[?2004l*************************
+* 2211 Winter Olympics! *
+*************************
+
+Enter operation code: p
+Event Code   Event Name                  Competitors                  Gender
+
+
+Enter operation code: i
+
+Enter event code: 0
+Enter event name: Ice Hockey
+Enter number of competitors: 12
+Enter the gender: M
+
+
+Enter operation code: p
+Event Code   Event Name                  Competitors                  Gender
+     0      Ice Hockey                       12                          M
+
+
+Enter operation code: i
+
+Enter event code: Running       1
+Enter event name: Running
+Enter number of competitors: 32
+Enter the gender: W
+
+
+Enter operation code: i
+
+Enter event code: 3
+Enter event name: Curling
+Enter number of competitors: 16
+Enter the gender: X
+
+
+Enter operation code: i
+
+Enter event code: 3
+Enter event name: Track
+Enter number of competitors: 59
+Enter the gender: M
+Event Code Error: Please try again
+
+Enter operation code: p
+Event Code   Event Name                  Competitors                  Gender
+     0      Ice Hockey                       12                          M
+     1         Running                       32                          W
+     3         Curling                       16                          X
+
+
+Enter operation code: s
+
+Enter event code: 1
+Event Code   Event Name                  Competitors                  Gender
+     1         Running                       32                          W
+
+
+Enter operation code: u
+
+Enter event code: 1
+Enter event name: Track
+Enter number of competitors: 30
+Enter the gender: W
+
+
+Enter operation code: p
+Event Code   Event Name                  Competitors                  Gender
+     0      Ice Hockey                       12                          M
+     1           Track                       30                          W
+     3         Curling                       16                          X
+
+
+Enter operation code: q
+]0;srangel@compute:~/2211/Assignments/Assignment4[?2004h[srangel@compute Assignment4]$ exit
+[?2004lexit
+
+Script done on 2022-03-28 23:32:41-04:00 [COMMAND_EXIT_CODE="0"]

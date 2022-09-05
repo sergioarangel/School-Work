@@ -1,0 +1,53 @@
+1. FILES
+
+ 1. If the ls command is unavailable you could use the dir command as an alternative.
+ The dir command works by listing all of the folders and files in the directory
+ in alphabetical order.
+
+ 2. To be prompted before a file is removed you would need to use -i and to not be prompted
+ you would need to use the -f. If you use both the -i and -f at the same time the -f option
+ would be used as it is given the higher priority
+
+ 3. The mv command changes the the name of the file called and it cal also change the location 
+ to somewhere else. The rename command can change a bunch of file names at once instead of
+ doing them each one by one
+
+ 4. ELF 64-bit LSB executable in this context means: Executable and Linkable Format and it 
+ shows the structure (64-bit) for libraries, core files, and binaries.
+
+ 5. The ls -l command displays the size of the file that is called, while the du command just
+ displays the amount of disk space  that is being used for the file that is being called.
+
+
+
+2. DIRECTORIES
+
+ 1. The easier alternative is to simple enter mkdir -p grandparent/parent/child
+
+ 2. In order to make a directory with a space in it you need to add a "/", so if you wanted
+ to make a directory with the file name "Computer Science". You need to enter
+ mkdir Computer/ Science and if you wanted to delete it you can simply enter
+ rm Computer/ Science
+
+ 3. You can simply enter mkdir -m 500 test   (test = name of file you want)
+
+ 4. You can simply enter cd .. which will go back up to the next parent directory
+
+ 5. You can simply enter pushd -N (N will be the number level)
+
+
+
+3. PERMISSIONS
+
+ 1. You can view made modifications that chmod is making by using pipelines.
+ EX: ___chmod___Command___Goes___Here | ls -l test.txt
+
+ 2. You can do this by copying ownerships between them:
+ chown --reference=test1 test2
+
+ 3. The stat command alone is good enough to list all of the details
+
+ 4. You simple need to enter chmod 755 filename   (filename = The name of the file you want)
+
+ 5. If the users(u/g/o/a) flag are ommited the, default option is a. THe permissions set by umask 
+ would not be affected.

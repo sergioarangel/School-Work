@@ -1,0 +1,158 @@
+Script started on 2022-02-08 22:40:49-05:00 [TERM="xterm-256color" TTY="/dev/pts/87" COLUMNS="104" LINES="49"]
+]0;srangel@compute:~/2211/Assignments/Assignment2[?2004h[srangel@compute Assignment2]$ gcc -o converter converter.c
+[?2004l]0;srangel@compute:~/2211/Assignments/Assignment2[?2004h[srangel@compute Assignment2]$ ./converter
+[?2004lPlease enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+1
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilometre to Mile 
+- (M) for conversion from Mile to Kilometre
+k
+Please enter the value of the conversion.
+25
+25.000000 Kilometre(s) == 15.534275 Mile(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+1
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilometre to Mile 
+- (M) for conversion from Mile to Kilometre
+m
+Please enter the value of the conversion.
+26
+26.000000 Mile(s) == 41.842957 Kilometre(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+2
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (L) for conversion from Litres to Gallons 
+- (G) for conversion from Gallons to Litres
+l
+Please enter the value of the conversion.
+56  94
+94.000000 Litre(s) == 24.832169 Gallon(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+3
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (H) for conversion from Hectares to Acres 
+- (A) for conversion from Acres to Hectares
+h
+Please enter the value of the conversion.
+34
+34.000000 Hectare(s) == 84.015701 Acre(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+3
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (H) for conversion from Hectares to Acres 
+- (A) for conversion from Acres to Hectares
+a
+Please enter the value of the conversion.
+94
+94.000000 Acre(s) == 38.040508 Hectare(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+4
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+k
+Please enter the value of the conversion.
+78
+78.000000 Kilogram(s) == 171.960358 Pound(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+4
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+p
+Please enter the value of the conversion.
+61
+61.000000 Pound(s) == 27.669167 Kilogram(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+4
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+t
+Invalid input. Please try again.
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+4
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+k
+Please enter the value of the conversion.
+ui
+61.000000 Kilogram(s) == 134.481827 Pound(s)
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+Invalid input. Please try again.
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+Please enter the Character corresponding with the conversion type you would like to make: 
+- (K) for conversion from Kilograms to Pounds 
+- (P) for conversion from Pounds to Kilograms
+Invalid input. Please try again.
+Please enter the integer corresponding with the conversion you would like to make: 
+- (1) for conversion between Kilometre and Mile 
+- (2) for conversion between Litres and Gallons
+- (3) for conversion between Hectares and Acres
+- (4) for conversion between Kilograms and Pounds
+- (5) for quit
+5
+]0;srangel@compute:~/2211/Assignments/Assignment2[?2004h[srangel@compute Assignment2]$ exit
+[?2004lexit
+
+Script done on 2022-02-08 22:43:46-05:00 [COMMAND_EXIT_CODE="0"]
